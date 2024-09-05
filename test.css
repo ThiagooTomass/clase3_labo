@@ -1,0 +1,91 @@
+.header {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-color: aliceblue;
+    border: 2px solid black;
+
+}
+
+body {
+    background-color: rgb(155, 193, 226)
+}
+
+.contenedor-principal {
+    display: inline-flex;
+    width: 80%;
+    align-items: center;
+}
+
+.barra {
+    display: inline-block;
+    width: 70%;
+    margin: 20px;
+
+}
+
+.boton {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.buscador {
+    display: inline-block;
+    width: 30%;
+}
+
+.imagen_perfil {
+    height: 18%;
+    width: 6%;
+    border-radius: 30%;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+}
+
+input {
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.contenedor-main {
+    display: flex;
+    position: relative;
+
+
+}
+
+.contenedor {
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+
+}
+
+.formulario {
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 20%;
+}
+
+.contenedor-info {
+    position: absolute;
+    left: 65%;
+    top: 20%;
+    width: 15em;
+    height: 30em;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    color: #E60000;
+    font-weight: bold;
+    text-align: center;
+}
